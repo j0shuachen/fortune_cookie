@@ -20,7 +20,7 @@ const App = () => (
       <div className='headerright'></div>
     </header>
       <Switch>
-      <Route exact path="/" component={Splash}/>
+      <Route exact path="/" component={FortuneShow}/>
       <Route exact path="/fortune" component ={FortuneShow}/>
       </Switch>
     <footer className='footer'>
