@@ -75,7 +75,7 @@ body, html, #root{
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  min-height: 100px;
+  // min-height: 100px;
   min-width: 100%;
   font-size: 16px;
     line-height: 1.45;
@@ -83,6 +83,8 @@ body, html, #root{
     font-weight: 400;
     background-color: #f4c842;
     color: white;
+    min-height: 10%;
+    max-height: 10%;
     // border-bottom: 3px rgba(211, 211, 211, 1) solid;
     border-bottom: 2px black solid;
 }
@@ -96,9 +98,10 @@ body, html, #root{
 .mainbody{
   display: flex;
   flex-direction: column;
-  min-height: 100%;
+  min-height: 80%;
   justify-content: center;
   min-width: 100%;
+  max-height: 80%;
   background-color: #f1fce0;
 }
 
@@ -179,8 +182,8 @@ body, html, #root{
   max-width: 100%;
   z-index: 2;
   opacity: 0.3;
-  min-height: 100%;
-  max-height: 100%;
+  min-height: 80%;
+  max-height: 80%;
   position: absolute;
 }
 
@@ -198,12 +201,14 @@ body, html, #root{
 }
 
 .footer{
+  min-height: 10%;
+  max-height: 10%;
   position: relative;
 }
 
 .logo{
   position: absolute;
-  top: 17%;
+  top: 25%;
   left: 1%;
 }
 
